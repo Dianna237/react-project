@@ -5,7 +5,7 @@ import me from '../../assets/IMG_1099.JPG'
 import HeaderSocials from './HeaderSocials' //import of headerSocial component
 export const Header = () => {
 return (
-<header>
+<header id='header'>
 <div className='container header__container'>
 <h5>Hello I'm</h5>
 <h1> Mbi Ayamba Dianna </h1>
@@ -23,3 +23,4 @@ return (
 )
 }
 export default Header;
+
